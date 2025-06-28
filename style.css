@@ -1,3 +1,11 @@
 body {
-  font-familyy: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+nav ul {
+  list-style: none; /* removes bullets */
+  padding: 0; 
+  margin: 0;
+  display: flex; /* makes list horizontal */
+  justify-content: center; /* centers items horizontally*/
 }
